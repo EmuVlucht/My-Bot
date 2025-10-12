@@ -23,4 +23,4 @@ Skrip Bash untuk **auto-update `.gitignore`** berdasarkan project type:
 ### Cara Pakai
 1. Jadikan executable:
    ```bash
-   chmod +x ultimate_gitignore.sh```
+   chmod +x ultimate_gitignore.sh
