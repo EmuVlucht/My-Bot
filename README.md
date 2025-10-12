@@ -23,7 +23,7 @@ Skrip Bash untuk **auto-update `.gitignore`** berdasarkan project type:
 ### Cara Pakai
 1. Jadikan executable:
    ```bash
-   chmod +x ultimate_gitignore.sh
+   chmod +x generator_gitignore.sh
 
 2. Tambahkan pre-commit hook di `.git/hooks/pre-commit.sh`:
 ```bash
@@ -60,7 +60,7 @@ export GITHUB_TOKEN="ghp_xxxxx"
 
 2. Jalankan skrip:
 ```bash
-bash git_auto_upload.sh
+bash upload.sh
 
 3. Semua file/folder akan di-upload batch demi batch, aman dari token di log.
 
