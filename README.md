@@ -33,7 +33,7 @@ Skrip Bash untuk **auto-update `.gitignore`** berdasarkan project type:
 
 3. Jadikan hook executable:
 ```bash
-chmod +x .git/hooks/pre-commit.sh
+   chmod +x .git/hooks/pre-commit.sh
 
 Setiap commit, `.gitignore` akan otomatis diperbarui.
 
@@ -56,11 +56,11 @@ Skrip Bash untuk inisialisasi repo, konfigurasi global, setup Git LFS, dan commi
 
 1. Set environment variable GITHUB_TOKEN:
 ```bash
-export GITHUB_TOKEN="ghp_xxxxx"
+   export GITHUB_TOKEN="ghp_xxxxx"
 
 2. Jalankan skrip:
 ```bash
-bash upload.sh
+   bash upload.sh
 
 3. Semua file/folder akan di-upload batch demi batch, aman dari token di log.
 
