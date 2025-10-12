@@ -2,6 +2,7 @@
 
 Skrip ini memudahkan manajemen `.gitignore` untuk multi-project dan submodules, sekaligus melakukan commit batch otomatis dengan Git LFS.
 
+
 ---
 
 ## 1. ultimate_gitignore.sh
@@ -33,7 +34,7 @@ git add .gitignore```
 
 3. Jadikan hook executable:
 ```bash
-chmod +x .git/hooks/pre-commit.sb```
+chmod +x .git/hooks/pre-commit.sh```
 
 Setiap commit, .gitignore akan otomatis diperbarui.
 
