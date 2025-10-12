@@ -26,10 +26,10 @@ Skrip Bash untuk **auto-update `.gitignore`** berdasarkan project type:
    chmod +x generator_gitignore.sh
 
 2. Tambahkan pre-commit hook di `.git/hooks/pre-commit.sh`:
-```bash
-#!/bin/bash
-bash ./generator_gitignore.sh
-git add .gitignore
+   ```bash
+   #!/bin/bash
+   bash ./generator_gitignore.sh
+   git add .gitignore
 
 3. Jadikan hook executable:
 ```bash
