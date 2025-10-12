@@ -1,19 +1,5 @@
 
 
-2. Tambahkan pre-commit hook di `.git/hooks/pre-commit.sh`:
-```bash
-#!/bin/bash
-bash ./generator_gitignore.sh
-git add .gitignore
-
-3. Jadikan hook executable:
-```bash
-chmod +x .git/hooks/pre-commit.sh
-
-Setiap commit, `.gitignore` akan otomatis diperbarui.
-
----
-
 ## 2. Git Auto Batch Commit Script
 
 Skrip Bash untuk inisialisasi repo, konfigurasi global, setup Git LFS, dan commit file/folder secara acak.
@@ -53,4 +39,4 @@ bash upload.sh
 
 MIT License ✅
 
----```
+---
