@@ -2,6 +2,18 @@
 # ultimate_gitignore.sh
 # Auto-update .gitignore for multi-project + submodules
 
+echo "Pre-commit hook: .git/hooks/pre-commit
+
+#!/bin/bash
+# Ultimate pre-commit hook
+bash ./ultimate_gitignore.sh
+git add .gitignore
+
+Jadikan executable:
+
+chmod +x ultimate_gitignore.sh
+chmod +x .git/hooks/pre-commit"
+
 OUTPUT_FILE=".gitignore"
 TEMP_FILE=".gitignore.tmp"
 
