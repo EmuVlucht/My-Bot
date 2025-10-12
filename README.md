@@ -27,7 +27,7 @@ Skrip Bash untuk **auto-update `.gitignore`** berdasarkan project type:
    chmod +x ultimate_gitignore.sh```
 
 2. Tambahkan pre-commit hook di .git/hooks/pre-commit.sh:
-```pre-commit.sh
+```bash
 #!/bin/bash
 bash ./ultimate_gitignore.sh
 git add .gitignore```
