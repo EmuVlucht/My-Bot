@@ -25,16 +25,16 @@ Skrip Bash untuk **auto-update `.gitignore`** berdasarkan project type:
    ```bash
    chmod +x ultimate_gitignore.sh```
 
-2. Tambahkan pre-commit hook di .git/hooks/pre-commit:
-```
+2. Tambahkan pre-commit hook di .git/hooks/pre-commit.sh:
+```Tempelkan pada file pre-commit.sh
 #!/bin/bash
 bash ./ultimate_gitignore.sh
 git add .gitignore```
 
 
 3. Jadikan hook executable:
-```
-chmod +x .git/hooks/pre-commit```
+```bash
+chmod +x .git/hooks/pre-commit.sh```
 
 
 
@@ -65,12 +65,12 @@ Push aman dengan --force-with-lease.
 Cara Pakai
 
 1. Set environment variable GITHUB_TOKEN:
-```
+```Setup PAT
 export GITHUB_TOKEN="ghp_xxxxx"```
 
 
 2. Jalankan skrip:
-```
+```bash
 bash git_auto_upload.sh```
 
 
