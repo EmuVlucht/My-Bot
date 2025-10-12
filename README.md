@@ -78,3 +78,5 @@ bash git_auto_upload.sh
 
 MIT License ✅
 
+---
+
